@@ -1,0 +1,81 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #112b2e;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color:#ff0077 ;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 120px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #17a2b8;
+}
+
+/* Sections */
+section {
+    padding: 80px 0;
+    background-color:#F0F0F0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.bio {
+    flex: 1;
+    margin-left: 40px;
+}
+
