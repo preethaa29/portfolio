@@ -8,8 +8,6 @@
 }
 .header-sec{
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 20px 80px;
     background-color: transparent;
@@ -77,6 +75,7 @@ nav{
     nav ul li a{
       font-size: 20px;
     }
+    
   }
   @media screen and (max-width: 858px) {
     .checkbtn{
@@ -143,65 +142,7 @@ nav{
     line-height: 26px;
     margin: 20px 0 40px;
   }
-  .btn-box{
-    display: flex;
-    justify-content: space-between;
-    width: 350px;
-    height: 50px;
-  }
-  .btn-box a{
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 100%;
-    background: #ff0077;
-    border: 2px solid #ff0077;
-    border-radius: 8px;
-    font-size: 18px;
-    color: #ebebeb;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: 600;
-    z-index: 1;
-    overflow: hidden;
-    transition: 0.5s;
-  }
-  .btn-box a:hover{
-    color: #fff;
-  }
-  .btn-box a:nth-child(2){
-    background: transparent;
-    color: #ff0077;
-  }
-  .btn-box a:nth-child(2):hover{
-    color: #ebebeb;
-  }
-  .btn-box a:nth-child(2)::before{
-    background: #ff0077;
-  }
-  .btn-box a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 100%;
-    background: #000;
-    z-index: -1;
-    border-radius: 8px;
-    transition: 0.5s;
-  }
-  .btn-box a:hover::before{
-    width: 100%;
-  }
   
-
-.social-icon a:hover:before{
-width:100%;
-}
-/* Responsive Code */
 @media  screen and (max-width: 952px) {
   .hero{
     padding: 0 40px;
